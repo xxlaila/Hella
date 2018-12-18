@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>{% block title %}base{% endblock %}</title>
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+        <!-- css加载 -->
+        <link rel="stylesheet" href={% static "bootstrap/css/bootstrap.min.css" %}>
+        <link rel="stylesheet" href={% static "bootstrap/css/AdminLTE.min.css" %}>
+        <link rel="stylesheet" href={% static "bootstrap/css/skins/_all-skins.min.css" %}>
+        {% block css %}{% endblock %}
+
+      <!-- 谷歌字体 -->
+      <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+    </head>
+    <body>
+
+
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#my-nav" aria-expanded="false">
+            <span class="sr-only">切换导航条</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Mysite</a>
+        </div>
+
+          <ul class="nav navbar-nav navbar-right">
+          {% if request.session.is_login %}
+            <li><a href="#">当前在线：{{ request.session.username }}</a></li>
+            <li><a href="/logout">注销</a></li>
+            {% else %}
+                <li><a href="/login/">登录</a></li>
+                <li><a href="/register/">注册</a></li>
+            {% endif %}
+          </ul>
+
+      </div>
+
+
+    {% block content %}
+    {% endblock %}
+
+        <!-- 引用js -->
+        <script src={% static "bootstrap/js/jquery.min.js" %}></script>
+        <script src={% static "bootstrap/js/bootstrap.min.js" %}></script>
+        <script src={% static "bootstrap/js/adminlte.min.js" %}></script>
+        <script src={% static "bootstrap/js/chart.js/Chart.js" %}></script>
+        {% block javascripts %}
+        {% endblock %}
+    </body>
+</html>
