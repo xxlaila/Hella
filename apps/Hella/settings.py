@@ -25,7 +25,7 @@ SECRET_KEY = 'zuk8p#$rn@*x3j4htd@dlwq%#3mry+*=*%8t2(#8*8vx7h92st'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -127,3 +127,13 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
+
+# 发送邮件配置参数
+EMAIL_BACKEND = 'django_smtp_ssl.SSLEmailBackend'
+MAILER_EMAIL_BACKEND = EMAIL_BACKEND
+EMAIL_HOST = "smtp.exmail.qq.com"  # 发送邮件的服务器地址
+EMAIL_PORT = 465  # 通常都是 25
+EMAIL_HOST_USER = "zxc@kingxunlian.com"  # 邮箱登录账号
+EMAIL_HOST_PASSWORD = "ZXCqwe1qaz"  # 邮箱登录密码
+EMAIL_USE_TLS = True  # 这个参数默认设置为 False 即可
+EMAIL_FROM = EMAIL_HOST_USER

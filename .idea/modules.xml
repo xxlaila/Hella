@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Hella.iml" filepath="$PROJECT_DIR$/.idea/Hella.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ansible/.idea/ansible-playbook.iml" filepath="$PROJECT_DIR$/../ansible/.idea/ansible-playbook.iml" />
     </modules>
   </component>
 </project>
