@@ -2,97 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="579b0e99-ed20-4f3d-806a-6925195d742f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/static/bootstrap/css/blue@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/static/bootstrap/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/static/bootstrap/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/static/bootstrap/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/static/bootstrap/fonts/ionicons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/static/img/blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/static/img/blue@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/static/bootstrap/css/blue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/static/bootstrap/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/static/bootstrap/css/ionicons.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/static/bootstrap/js/Verifcode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/static/bootstrap/js/dashboard2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/static/bootstrap/js/demo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/static/bootstrap/js/fastclick.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/static/bootstrap/js/icheck.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/static/bootstrap/js/jquery-jvectormap-1.2.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/static/bootstrap/js/jquery-jvectormap-world-mill-en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/static/bootstrap/js/jquery.slimscroll.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/static/bootstrap/js/jquery.sparkline.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/templates/authapp/send_success.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/templates/authapp/userinfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/utils/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/utils/email_send.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/bootstrap/css/AdminLTE.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/bootstrap/css/adminlte.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/bootstrap/css/adminlte.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/bootstrap/css/alt/AdminLTE-bootstrap-social.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/bootstrap/css/alt/AdminLTE-bootstrap-social.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/bootstrap/css/alt/AdminLTE-fullcalendar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/bootstrap/css/alt/AdminLTE-fullcalendar.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/bootstrap/css/alt/AdminLTE-select2.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/bootstrap/css/alt/AdminLTE-select2.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/bootstrap/css/alt/AdminLTE-without-plugins.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/bootstrap/css/alt/AdminLTE-without-plugins.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/bootstrap/js/.jscsrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/bootstrap/js/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/bootstrap/js/affix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/bootstrap/js/alert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/bootstrap/js/button.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/bootstrap/js/carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/bootstrap/js/collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/bootstrap/js/dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/bootstrap/js/jquery.slim.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/bootstrap/js/modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/bootstrap/js/npm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/bootstrap/js/popover.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/bootstrap/js/scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/bootstrap/js/tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/bootstrap/js/tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/bootstrap/js/transition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/img/avatar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/img/avatar04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/img/avatar2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/img/avatar3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/img/avatar5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/img/credit/american-express.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/img/credit/cirrus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/img/credit/mastercard.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/img/credit/mestro.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/img/credit/paypal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/img/credit/paypal2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/img/credit/visa.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/img/default-50x50.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/img/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/img/photo1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/img/photo2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/img/photo3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/img/photo4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/img/user1-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/img/user3-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/img/user4-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/img/user5-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/img/user6-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/img/user7-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/static/img/user8-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/apps/templates/base1.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/static/bootstrap/js/jquery-jvectormap.css" afterPath="$PROJECT_DIR$/apps/static/bootstrap/css/jquery-jvectormap.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/apps/templates/authapp/register.html" afterPath="$PROJECT_DIR$/apps/templates/authapp/create.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Hella.iml" afterPath="$PROJECT_DIR$/.idea/Hella.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/Hella/settings.py" afterPath="$PROJECT_DIR$/apps/Hella/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/Hella/urls.py" afterPath="$PROJECT_DIR$/apps/Hella/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/authapp/froms.py" afterPath="$PROJECT_DIR$/apps/authapp/froms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/authapp/models.py" afterPath="$PROJECT_DIR$/apps/authapp/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/authapp/urls.py" afterPath="$PROJECT_DIR$/apps/authapp/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/authapp/views.py" afterPath="$PROJECT_DIR$/apps/authapp/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/static/bootstrap/css/login.css" afterPath="$PROJECT_DIR$/apps/static/bootstrap/css/login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/templates/authapp/login.html" afterPath="$PROJECT_DIR$/apps/templates/authapp/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/templates/base.html" afterPath="$PROJECT_DIR$/apps/templates/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ansible/roles/k8s/tasks/main.yml" afterPath="$PROJECT_DIR$/../ansible/roles/k8s/tasks/main.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ansible/roles/k8s/templates/10-flannel.conf" afterPath="$PROJECT_DIR$/../ansible/roles/k8s/templates/10-flannel.conf" />
     </list>
@@ -182,8 +92,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/authapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="967">
-              <caret line="118" column="16" lean-forward="false" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
+            <state relative-caret-position="952">
+              <caret line="128" column="15" lean-forward="true" selection-start-line="128" selection-start-column="15" selection-end-line="128" selection-end-column="15" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -989,8 +899,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/authapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="967">
-          <caret line="118" column="16" lean-forward="false" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
+        <state relative-caret-position="952">
+          <caret line="128" column="15" lean-forward="true" selection-start-line="128" selection-start-column="15" selection-end-line="128" selection-end-column="15" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>

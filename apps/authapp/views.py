@@ -117,3 +117,17 @@ def userinfo(requst):
     username = requst.GET.get("username")
     user ={}
     resdata = {}
+    logger.debug("用户:%s,查询扩展信息." % (username))
+    if (username is None):
+        username = request.user.username
+        user = User.objects.get(username=username)
+        resdata = ResData('userinfo-rep', '0', True, '用户信息展示', user)
+    else:
+        user = models.MyUser.objects.get(username=username)
+        if user is None:
+            resdata = ResData('userinfo-rep', '0', False, '没有找到用户%s' % (username), '')
+            logger.error("用户：%s，显示失败" % (username))
+        else:
+            resdata = ResData('userinfo-rep', '0', True, '用户信息展示', user)
+    currentPage = PageInit('userinfo', resdata)
+    return render(request, currentPage.template, currentPage.__dict__)
